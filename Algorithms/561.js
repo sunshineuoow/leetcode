@@ -14,5 +14,3 @@ var arrayPairSum = function(nums) {
   }
   return sum
 }
-
-console.log(arrayPairSum([6214, -2290, 2833, -7908]))
