@@ -17,7 +17,6 @@ var mostCommonWord = function(paragraph, banned) {
     }
   }
   let result = null
-  console.log(arr, stash)
   for (let key in stash) {
     if (result === null) result = key
     if (stash[key] > stash[result]) result = key
@@ -25,4 +24,3 @@ var mostCommonWord = function(paragraph, banned) {
   return result
 };
 
-console.log(mostCommonWord("Bob. hIt, baLl", ["bob", "hit"]))

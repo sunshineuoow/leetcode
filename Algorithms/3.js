@@ -16,9 +16,3 @@ var lengthOfLongestSubstring = function (s) {
 	}
 	return anwser
 };
-
-console.log(lengthOfLongestSubstring('pwwkew'))
-console.log(lengthOfLongestSubstring('abcabcbb'))
-console.log(lengthOfLongestSubstring('a'))
-console.log(lengthOfLongestSubstring('bwf'))
-console.log(lengthOfLongestSubstring(''))

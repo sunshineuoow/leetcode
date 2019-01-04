@@ -27,4 +27,3 @@ var largeGroupPositions = function(S) {
   return result
 };
 
-console.log(largeGroupPositions("aaa"))

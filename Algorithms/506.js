@@ -14,7 +14,6 @@ var findRelativeRanks = function(nums) {
   }
   let pos = 1
   const result = []
-  console.log(stash)
   for (let i = max; i >= min; i--) {
     if (typeof stash[i] !== 'undefined') {
       switch (pos) {
